@@ -1,0 +1,56 @@
+.main{
+    padding: 2rem 8rem;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+th,td{
+    border:1px solid black;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+}
+input{
+    width:70%;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+.add-btn{
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+
+
+.btn-grp{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.btn-grp button{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.completed{
+    background-color:green;
+}
+.not-completed{
+    background-color: orange;
+}
+
+.del-btn{
+    background-color: red;
+}
